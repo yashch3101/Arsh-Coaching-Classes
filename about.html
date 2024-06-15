@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Website</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <nav>
+        <img src="/images/logo.png" alt="">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fa-solid fa-circle-xmark"></i>
+                <li><a href="index.html">Home</a></li>
+                <li><a  class="active" href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img id="menu-btn" src="/images/menu.png" alt="">
+        </div>
+    </nav>
+
+    <!-- Home -->
+
+    <section id="about-home">
+        <h2>About Arsh Coaching Classes</h2>
+        
+    </section>
+
+    <section id="about-container">
+        <div class="about-img">
+            <img src="/images/a.png" alt="">
+        </div>
+
+        <div class="about-text">
+            <h2>Welcome to Arsh Coaching Classes, Enhance your skills with best offline Courses</h2>
+            <p>You can start and finish one of these popular courses in under a day - for 
+            free! Check out the list below.. Take the courses for free</p>
+            <div class="about-fe">
+                <img src="/images/fe1.png" alt="">
+                <div class="fe-text">
+                    <h5>All Subjects for class 1 to 10</h5>
+                    <p>You can start learning in our offline classes</p>
+                </div>
+            </div>
+            <div class="about-fe">
+                <img src="/images/fe2.png" alt="">
+                <div class="fe-text">
+                    <h5>Dare to Dream Big!</h5>
+                    <p>You can start learning in our offline classes</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="trust">
+        <h1>Self Introduction</h1>
+        <p>Hi!I Smita Srivastava tutor of Arsh Coaching Classes teaches the classes from 1st To 10th all boards and all subjects.
+            With a passion for education and a commitment to your success,I am here to guide,support and inspire you to every step of the way. </p>
+        <div class="trust-img">
+            <img src="/images/trust (1).png" alt="">
+            <img src="/images/trust (2).png" alt="">
+            <img src="/images/trust (3).png" alt="">
+            <img src="/images/trust (4).png" alt="">
+            <img src="/images/trust (5).png" alt="">
+            <img src="/images/trust (6).png" alt="">
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputations</li>
+            <li>Power Tools</li>
+            <li>Managed Websites</li>
+            <li>Marketing Services</li>
+        </div>
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Jobs</li>
+            <li>Brand Assets</li>
+            <li>Investor Relations</li>
+            <li>Terms of Services</li>
+        </div>
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Websites</li>
+            <li>Marketing Services</li>
+        </div>
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Guides</li>
+            <li>Research</li>
+            <li>Experts</li>
+            <li>Marketing Services</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>You can trust us. we only send promo offers, </p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email address">
+                <a href="#" class="yellow">SUBSCRIBE</a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>copyright @2024 All rights reserved | This template is made by Arsh Coaching Classes</p>
+            <div class="pro-links">
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+
+
+</body>
+
+</html>
